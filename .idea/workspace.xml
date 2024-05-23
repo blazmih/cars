@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bcbdc6e-7b69-4d7b-9008-3faa1f8130eb" name="Changes" comment="Second commit" />
+    <list default="true" id="6bcbdc6e-7b69-4d7b-9008-3faa1f8130eb" name="Changes" comment="Third commit">
+      <change afterPath="$PROJECT_DIR$/car-catalog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/models/Host.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/models/Host.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716150255993</updated>
       <workItem from="1716150259110" duration="26590000" />
-      <workItem from="1716409022737" duration="19598000" />
+      <workItem from="1716409022737" duration="21308000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1716494629094</created>
@@ -163,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716494629094</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Third commit">
+      <created>1716495407245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716495407245</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="Third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit" />
   </component>
 </project>
