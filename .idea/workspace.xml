@@ -1,14 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bcbdc6e-7b69-4d7b-9008-3faa1f8130eb" name="Changes" comment="" />
+    <list default="true" id="6bcbdc6e-7b69-4d7b-9008-3faa1f8130eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/car-catalog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/CarCatalogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/config/DataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/domain/exceptions/CardIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/domain/models/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/domain/models/CarId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/repository/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/services/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/services/forms/CarForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/services/impl/CarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/xport/events/CarEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/java/com/example/carcatalog/xport/rest/ProductResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/resources/application-h2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-catalog/src/test/java/com/example/carcatalog/CarCatalogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/CarManagmentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/exceptions/HostIdNotExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/exceptions/RentItemIdNotExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/models/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/models/HostId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/models/RentItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/models/RentItemId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/domain/repository/HostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/infra/DomainEventPublisherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/service/HostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/service/forms/HostForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/service/forms/RentItemForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/service/impl/HostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/value_objects/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/value_objects/CarId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/java/com/example/carmanagment/xportclient/CarCLient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/resources/application-h2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/test/java/com/example/carmanagment/CarManagmentApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-managment/src/test/java/com/example/carmanagment/service/HostServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/base/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/base/DomainObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/base/DomainObjectId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/base/ValueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/config/TopicHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/credentials/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/credentials/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/events/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/events/orders/OrderItemCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/domain/events/orders/OrderItemRemoved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/com/example/sharedkernel/infra/DomainEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/test/java/com/example/sharedkernel/domain/SharedKernelApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/car-catalog" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2ghWOA8MIL1jI2Kayq7huCJx5bu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,11 +111,111 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "21 (2)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "7e190ce8ae304175b7510df89379f8ac"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ]
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HostServiceImplTest">
+    <configuration name="HostServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car-managment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.carmanagment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.carmanagment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.carmanagment.service.HostServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HostServiceImplTest.testPlaceOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car-managment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.carmanagment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.carmanagment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.carmanagment.service.HostServiceImplTest" />
+      <option name="METHOD_NAME" value="testPlaceOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HostServiceImplTest.testPlaceOrderWithRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car-managment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.carmanagment.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.carmanagment.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.carmanagment.service.HostServiceImplTest" />
+      <option name="METHOD_NAME" value="testPlaceOrderWithRealData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarManagmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="car-managment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.carmanagment.CarManagmentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SharedKernelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shared-kernel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sharedkernel.SharedKernelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="car-catalog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.carcatalog.CarCatalogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HostServiceImplTest" />
+        <item itemvalue="JUnit.HostServiceImplTest.testPlaceOrderWithRealData" />
+        <item itemvalue="JUnit.HostServiceImplTest.testPlaceOrder" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,9 +224,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716150255993</updated>
-      <workItem from="1716150259110" duration="2000" />
+      <workItem from="1716150259110" duration="26590000" />
+      <workItem from="1716409022737" duration="18726000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
